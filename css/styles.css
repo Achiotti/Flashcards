@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.highlight {
+  font-weight: bold
+}
+
+#java-showing, #op-showing, 
+#var-showing, #scope, #glscope, #loscope, #method-showing, #arguments-showing, #p-showing, #return-showing, #attributes-showing {
+  display: none;
+}
+
+.click-js, .click-operators, .click-var, .click-scope, .click-glscope, .click-loscope, .click-method, .click-arguments, .click-para, .click-return, .click-attributes {
+  cursor: pointer;
+  color: #0033cc;
+  font-weight: bold;
+}
